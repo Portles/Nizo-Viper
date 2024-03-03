@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD749202B9477470027101D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7491F2B9477470027101D /* AppDelegate.swift */; };
+		CAD749222B9477470027101D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749212B9477470027101D /* SceneDelegate.swift */; };
+		CAD749242B9477470027101D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749232B9477470027101D /* ViewController.swift */; };
+		CAD749272B9477470027101D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD749252B9477470027101D /* Main.storyboard */; };
+		CAD749292B9477480027101D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD749282B9477480027101D /* Assets.xcassets */; };
+		CAD7492C2B9477480027101D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD7492A2B9477480027101D /* LaunchScreen.storyboard */; };
+		CAD749372B9477480027101D /* Nizo_ViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749362B9477480027101D /* Nizo_ViperTests.swift */; };
+		CAD749412B9477480027101D /* Nizo_ViperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749402B9477480027101D /* Nizo_ViperUITests.swift */; };
+		CAD749432B9477480027101D /* Nizo_ViperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749422B9477480027101D /* Nizo_ViperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD749332B9477480027101D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD749142B9477470027101D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD7491B2B9477470027101D;
+			remoteInfo = "Nizo-Viper";
+		};
+		CAD7493D2B9477480027101D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD749142B9477470027101D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD7491B2B9477470027101D;
+			remoteInfo = "Nizo-Viper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD7491C2B9477470027101D /* Nizo-Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nizo-Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD7491F2B9477470027101D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD749212B9477470027101D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAD749232B9477470027101D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAD749262B9477470027101D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD749282B9477480027101D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD7492B2B9477480027101D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD7492D2B9477480027101D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD749322B9477480027101D /* Nizo-ViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nizo-ViperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD749362B9477480027101D /* Nizo_ViperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nizo_ViperTests.swift; sourceTree = "<group>"; };
+		CAD7493C2B9477480027101D /* Nizo-ViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nizo-ViperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD749402B9477480027101D /* Nizo_ViperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nizo_ViperUITests.swift; sourceTree = "<group>"; };
+		CAD749422B9477480027101D /* Nizo_ViperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nizo_ViperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD749192B9477470027101D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7492F2B9477480027101D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD749392B9477480027101D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD749132B9477470027101D = {
+			isa = PBXGroup;
+			children = (
+				CAD7491E2B9477470027101D /* Nizo-Viper */,
+				CAD749352B9477480027101D /* Nizo-ViperTests */,
+				CAD7493F2B9477480027101D /* Nizo-ViperUITests */,
+				CAD7491D2B9477470027101D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD7491D2B9477470027101D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7491C2B9477470027101D /* Nizo-Viper.app */,
+				CAD749322B9477480027101D /* Nizo-ViperTests.xctest */,
+				CAD7493C2B9477480027101D /* Nizo-ViperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD7491E2B9477470027101D /* Nizo-Viper */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7491F2B9477470027101D /* AppDelegate.swift */,
+				CAD749212B9477470027101D /* SceneDelegate.swift */,
+				CAD749232B9477470027101D /* ViewController.swift */,
+				CAD749252B9477470027101D /* Main.storyboard */,
+				CAD749282B9477480027101D /* Assets.xcassets */,
+				CAD7492A2B9477480027101D /* LaunchScreen.storyboard */,
+				CAD7492D2B9477480027101D /* Info.plist */,
+			);
+			path = "Nizo-Viper";
+			sourceTree = "<group>";
+		};
+		CAD749352B9477480027101D /* Nizo-ViperTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD749362B9477480027101D /* Nizo_ViperTests.swift */,
+			);
+			path = "Nizo-ViperTests";
+			sourceTree = "<group>";
+		};
+		CAD7493F2B9477480027101D /* Nizo-ViperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD749402B9477480027101D /* Nizo_ViperUITests.swift */,
+				CAD749422B9477480027101D /* Nizo_ViperUITestsLaunchTests.swift */,
+			);
+			path = "Nizo-ViperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD7491B2B9477470027101D /* Nizo-Viper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD749462B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-Viper" */;
+			buildPhases = (
+				CAD749182B9477470027101D /* Sources */,
+				CAD749192B9477470027101D /* Frameworks */,
+				CAD7491A2B9477470027101D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nizo-Viper";
+			productName = "Nizo-Viper";
+			productReference = CAD7491C2B9477470027101D /* Nizo-Viper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD749312B9477480027101D /* Nizo-ViperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD749492B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-ViperTests" */;
+			buildPhases = (
+				CAD7492E2B9477480027101D /* Sources */,
+				CAD7492F2B9477480027101D /* Frameworks */,
+				CAD749302B9477480027101D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD749342B9477480027101D /* PBXTargetDependency */,
+			);
+			name = "Nizo-ViperTests";
+			productName = "Nizo-ViperTests";
+			productReference = CAD749322B9477480027101D /* Nizo-ViperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD7493B2B9477480027101D /* Nizo-ViperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD7494C2B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-ViperUITests" */;
+			buildPhases = (
+				CAD749382B9477480027101D /* Sources */,
+				CAD749392B9477480027101D /* Frameworks */,
+				CAD7493A2B9477480027101D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD7493E2B9477480027101D /* PBXTargetDependency */,
+			);
+			name = "Nizo-ViperUITests";
+			productName = "Nizo-ViperUITests";
+			productReference = CAD7493C2B9477480027101D /* Nizo-ViperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD749142B9477470027101D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CAD7491B2B9477470027101D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CAD749312B9477480027101D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CAD7491B2B9477470027101D;
+					};
+					CAD7493B2B9477480027101D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CAD7491B2B9477470027101D;
+					};
+				};
+			};
+			buildConfigurationList = CAD749172B9477470027101D /* Build configuration list for PBXProject "Nizo-Viper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD749132B9477470027101D;
+			productRefGroup = CAD7491D2B9477470027101D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD7491B2B9477470027101D /* Nizo-Viper */,
+				CAD749312B9477480027101D /* Nizo-ViperTests */,
+				CAD7493B2B9477480027101D /* Nizo-ViperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD7491A2B9477470027101D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7492C2B9477480027101D /* LaunchScreen.storyboard in Resources */,
+				CAD749292B9477480027101D /* Assets.xcassets in Resources */,
+				CAD749272B9477470027101D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD749302B9477480027101D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7493A2B9477480027101D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD749182B9477470027101D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD749242B9477470027101D /* ViewController.swift in Sources */,
+				CAD749202B9477470027101D /* AppDelegate.swift in Sources */,
+				CAD749222B9477470027101D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7492E2B9477480027101D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD749372B9477480027101D /* Nizo_ViperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD749382B9477480027101D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD749412B9477480027101D /* Nizo_ViperUITests.swift in Sources */,
+				CAD749432B9477480027101D /* Nizo_ViperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD749342B9477480027101D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD7491B2B9477470027101D /* Nizo-Viper */;
+			targetProxy = CAD749332B9477480027101D /* PBXContainerItemProxy */;
+		};
+		CAD7493E2B9477480027101D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD7491B2B9477470027101D /* Nizo-Viper */;
+			targetProxy = CAD7493D2B9477480027101D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD749252B9477470027101D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD749262B9477470027101D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD7492A2B9477480027101D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD7492B2B9477480027101D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD749442B9477480027101D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD749452B9477480027101D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD749472B9477480027101D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAG6CZ7HRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nizo-Viper/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-Viper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD749482B9477480027101D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAG6CZ7HRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nizo-Viper/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-Viper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAD7494A2B9477480027101D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAG6CZ7HRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-ViperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nizo-Viper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nizo-Viper";
+			};
+			name = Debug;
+		};
+		CAD7494B2B9477480027101D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAG6CZ7HRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-ViperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nizo-Viper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nizo-Viper";
+			};
+			name = Release;
+		};
+		CAD7494D2B9477480027101D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAG6CZ7HRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-ViperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nizo-Viper";
+			};
+			name = Debug;
+		};
+		CAD7494E2B9477480027101D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAG6CZ7HRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-ViperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nizo-Viper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD749172B9477470027101D /* Build configuration list for PBXProject "Nizo-Viper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD749442B9477480027101D /* Debug */,
+				CAD749452B9477480027101D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD749462B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-Viper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD749472B9477480027101D /* Debug */,
+				CAD749482B9477480027101D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD749492B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-ViperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD7494A2B9477480027101D /* Debug */,
+				CAD7494B2B9477480027101D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD7494C2B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-ViperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD7494D2B9477480027101D /* Debug */,
+				CAD7494E2B9477480027101D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD749142B9477470027101D /* Project object */;
+}
