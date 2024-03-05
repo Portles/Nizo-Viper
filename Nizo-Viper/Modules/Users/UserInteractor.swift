@@ -7,37 +7,33 @@
 
 import Foundation
 
-protocol UserInteractorProtocol: AnyObject {
-    func getUsers(completion: @escaping (Result<[User], Error>) -> Void)
+protocol UserInteractorInputProtocol: AnyObject {
+    func getUsers()
 }
 
-final class UserInteractor: UserInteractorProtocol {
-    static let shared: UserInteractor = UserInteractor()
+protocol UserInteractorOutputProtocol: AnyObject {
+    func getUsersSuccess(users: [User])
+    func getUsersFailure(error: Error?)
+}
+
+final class UserInteractor: UserInteractorInputProtocol {
     
-    func getUsers(completion: @escaping (Result<[User], Error>) -> Void) {
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/users") else {
-            completion(.failure(NSError(domain: "URLCreationError", code: -1, userInfo: nil)))
-            return
-        }
-        let task = URLSession.shared.dataTask(with: url) { data, _, error in
-            if let error {
-                completion(.failure(error))
-                return
+    weak var output: UserInteractorOutputProtocol?
+    
+    private let repo: UserRepo
+    
+    init(repo: UserRepo) {
+        self.repo = repo
+    }
+    
+    func getUsers() {
+        repo.getUsers(completion: { [weak self] result in
+            switch result {
+            case .success(let users):
+                self?.output?.getUsersSuccess(users: users)
+            case .failure(let error):
+                self?.output?.getUsersFailure(error: error)
             }
-            
-            guard let data else {
-                completion(.failure(NSError(domain: "DataError", code: -2, userInfo: nil)))
-                return
-            }
-            
-            do {
-                let entities = try JSONDecoder().decode([User].self, from: data)
-                completion(.success(entities))
-            } catch {
-                completion(.failure(error))
-            }
-        }
-        
-        task.resume()
+        })
     }
 }

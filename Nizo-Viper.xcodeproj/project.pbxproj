@@ -19,6 +19,10 @@
 		CAD749552B9478BB0027101D /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749542B9478BB0027101D /* UserPresenter.swift */; };
 		CAD749572B9478C10027101D /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749562B9478C10027101D /* UserEntity.swift */; };
 		CAD749592B9478D00027101D /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749582B9478D00027101D /* UserRouter.swift */; };
+		CAEDD0A22B97AD1F007DA501 /* MockUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A12B97AD1F007DA501 /* MockUserView.swift */; };
+		CAEDD0A42B97AEB9007DA501 /* MockUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A32B97AEB9007DA501 /* MockUserInteractor.swift */; };
+		CAEDD0A62B97AEC3007DA501 /* MockUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A52B97AEC3007DA501 /* MockUserRouter.swift */; };
+		CAEDD0A92B97C428007DA501 /* UserRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A82B97C428007DA501 /* UserRepo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		CAD749542B9478BB0027101D /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
 		CAD749562B9478C10027101D /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		CAD749582B9478D00027101D /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		CAEDD0A12B97AD1F007DA501 /* MockUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserView.swift; sourceTree = "<group>"; };
+		CAEDD0A32B97AEB9007DA501 /* MockUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserInteractor.swift; sourceTree = "<group>"; };
+		CAEDD0A52B97AEC3007DA501 /* MockUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserRouter.swift; sourceTree = "<group>"; };
+		CAEDD0A82B97C428007DA501 /* UserRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,13 +159,33 @@
 		CAD7494F2B9478970027101D /* Users */ = {
 			isa = PBXGroup;
 			children = (
+				CAEDD0A02B97AD0A007DA501 /* Mocks */,
 				CAD749522B9478B30027101D /* UserInteractor.swift */,
 				CAD749542B9478BB0027101D /* UserPresenter.swift */,
 				CAD749562B9478C10027101D /* UserEntity.swift */,
 				CAD749582B9478D00027101D /* UserRouter.swift */,
+				CAEDD0A72B97C41B007DA501 /* Repo */,
 				CACDDA922B9724F600E215A8 /* View */,
 			);
 			path = Users;
+			sourceTree = "<group>";
+		};
+		CAEDD0A02B97AD0A007DA501 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDD0A12B97AD1F007DA501 /* MockUserView.swift */,
+				CAEDD0A32B97AEB9007DA501 /* MockUserInteractor.swift */,
+				CAEDD0A52B97AEC3007DA501 /* MockUserRouter.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		CAEDD0A72B97C41B007DA501 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDD0A82B97C428007DA501 /* UserRepo.swift */,
+			);
+			path = Repo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,12 +319,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAD749592B9478D00027101D /* UserRouter.swift in Sources */,
+				CAEDD0A22B97AD1F007DA501 /* MockUserView.swift in Sources */,
+				CAEDD0A92B97C428007DA501 /* UserRepo.swift in Sources */,
 				CAD749552B9478BB0027101D /* UserPresenter.swift in Sources */,
 				CAD749512B9478AC0027101D /* UsersView.swift in Sources */,
 				CAD749532B9478B30027101D /* UserInteractor.swift in Sources */,
 				CAD749202B9477470027101D /* AppDelegate.swift in Sources */,
 				CAD749572B9478C10027101D /* UserEntity.swift in Sources */,
+				CAEDD0A62B97AEC3007DA501 /* MockUserRouter.swift in Sources */,
 				CAD749222B9477470027101D /* SceneDelegate.swift in Sources */,
+				CAEDD0A42B97AEB9007DA501 /* MockUserInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

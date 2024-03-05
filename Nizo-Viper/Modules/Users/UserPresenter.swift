@@ -11,7 +11,7 @@ enum FetchError: Error {
     case failed
 }
 
-protocol UserPresenterProtocol {
+protocol UserPresenterProtocol: AnyObject {
     func fetchUsers()
     func clearUsers()
     func getUserDataByIndex(_ index: Int) -> String?
@@ -22,15 +22,14 @@ protocol UserPresenterProtocol {
 final class UserPresenter {
     private weak var view: UserViewProtocol?
     private weak var router: UserRouterProtocol?
-    var interactor: UserInteractorProtocol? {
+    private var interactor: UserInteractorInputProtocol? {
         didSet {
             fetchUsers()
         }
     }
+    private var users: [User] = []
     
-    var users: [User] = []
-    
-    init(view: UserViewProtocol?, router: UserRouterProtocol?, interactor: UserInteractorProtocol?) {
+    init(view: UserViewProtocol?, router: UserRouterProtocol?, interactor: UserInteractorInputProtocol?) {
         self.view = view
         self.router = router
         self.interactor = interactor
@@ -52,18 +51,7 @@ extension UserPresenter: UserPresenterProtocol {
     }
     
     func fetchUsers() {
-        interactor?.getUsers(completion: { [weak self] result in
-            switch result {
-            case .success(let users):
-                self?.users = users
-                DispatchQueue.main.async {
-                    self?.view?.reloadTable()
-                    self?.view?.changeTableVisibility(false)
-                }
-            case .failure(let error):
-                debugPrint(error)
-            }
-        })
+        interactor?.getUsers()
     }
     
     func clearUsers() {
@@ -72,5 +60,19 @@ extension UserPresenter: UserPresenterProtocol {
             self?.view?.reloadTable()
             self?.view?.changeTableVisibility(true)
         }
+    }
+}
+
+extension UserPresenter: UserInteractorOutputProtocol {
+    func getUsersSuccess(users: [User]) {
+        self.users = users
+        DispatchQueue.main.async { [weak self] in
+            self?.view?.reloadTable()
+            self?.view?.changeTableVisibility(false)
+        }
+    }
+    
+    func getUsersFailure(error: Error?) {
+        debugPrint(error?.localizedDescription as? String ?? "Some errors")
     }
 }
