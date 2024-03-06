@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA85C2C92B98E01600940227 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85C2C82B98E01600940227 /* MockNetworkManager.swift */; };
 		CAD749202B9477470027101D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7491F2B9477470027101D /* AppDelegate.swift */; };
 		CAD749222B9477470027101D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749212B9477470027101D /* SceneDelegate.swift */; };
 		CAD749292B9477480027101D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD749282B9477480027101D /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA85C2C82B98E01600940227 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 		CAD7491C2B9477470027101D /* Nizo-Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nizo-Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD7491F2B9477470027101D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD749212B9477470027101D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA85C2C72B98E00000940227 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				CA85C2C82B98E01600940227 /* MockNetworkManager.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		CACDDA912B9724D000E215A8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +193,7 @@
 		CAEDD0A72B97C41B007DA501 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				CA85C2C72B98E00000940227 /* Mock */,
 				CAEDD0A82B97C428007DA501 /* NetworkManager.swift */,
 			);
 			path = NetworkManager;
@@ -324,6 +335,7 @@
 				CAD749552B9478BB0027101D /* UserPresenter.swift in Sources */,
 				CAD749512B9478AC0027101D /* UsersView.swift in Sources */,
 				CAD749532B9478B30027101D /* UserInteractor.swift in Sources */,
+				CA85C2C92B98E01600940227 /* MockNetworkManager.swift in Sources */,
 				CAD749202B9477470027101D /* AppDelegate.swift in Sources */,
 				CAD749572B9478C10027101D /* UserEntity.swift in Sources */,
 				CAEDD0A62B97AEC3007DA501 /* MockUserRouter.swift in Sources */,

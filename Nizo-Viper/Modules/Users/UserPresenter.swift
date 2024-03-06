@@ -42,7 +42,7 @@ extension UserPresenter: UserPresenterProtocol {
     }
     
     func getUserDataByIndex(_ index: Int) -> String? {
-        users?[index].name
+        users?[index].name ?? ""
     }
     
     func notifyViewDidload() {

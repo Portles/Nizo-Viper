@@ -5,7 +5,7 @@
 //  Created by Nizamet Özkan on 3.03.2024.
 //
 
-struct User: Codable {
+struct User: Codable, Equatable {
     let name: String
     
     static let mockUsers: [User] = [

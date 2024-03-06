@@ -27,9 +27,11 @@ final class MockUserView: UserViewProtocol {
     
     var invokedChangeTableVisibility: Bool = false
     var invokedChangeTableVisibilityCount: Int = 0
+    var tableViewHiddenState: Bool = false
     
     func changeTableVisibility(_ isHidden: Bool) {
         invokedChangeTableVisibility = true
         invokedChangeTableVisibilityCount += 1
+        tableViewHiddenState = isHidden
     }
 }
