@@ -22,7 +22,7 @@
 		CAEDD0A22B97AD1F007DA501 /* MockUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A12B97AD1F007DA501 /* MockUserView.swift */; };
 		CAEDD0A42B97AEB9007DA501 /* MockUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A32B97AEB9007DA501 /* MockUserInteractor.swift */; };
 		CAEDD0A62B97AEC3007DA501 /* MockUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A52B97AEC3007DA501 /* MockUserRouter.swift */; };
-		CAEDD0A92B97C428007DA501 /* UserRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A82B97C428007DA501 /* UserRepo.swift */; };
+		CAEDD0A92B97C428007DA501 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A82B97C428007DA501 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		CAEDD0A12B97AD1F007DA501 /* MockUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserView.swift; sourceTree = "<group>"; };
 		CAEDD0A32B97AEB9007DA501 /* MockUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserInteractor.swift; sourceTree = "<group>"; };
 		CAEDD0A52B97AEC3007DA501 /* MockUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserRouter.swift; sourceTree = "<group>"; };
-		CAEDD0A82B97C428007DA501 /* UserRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepo.swift; sourceTree = "<group>"; };
+		CAEDD0A82B97C428007DA501 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +164,7 @@
 				CAD749542B9478BB0027101D /* UserPresenter.swift */,
 				CAD749562B9478C10027101D /* UserEntity.swift */,
 				CAD749582B9478D00027101D /* UserRouter.swift */,
-				CAEDD0A72B97C41B007DA501 /* Repo */,
+				CAEDD0A72B97C41B007DA501 /* NetworkManager */,
 				CACDDA922B9724F600E215A8 /* View */,
 			);
 			path = Users;
@@ -180,12 +180,12 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
-		CAEDD0A72B97C41B007DA501 /* Repo */ = {
+		CAEDD0A72B97C41B007DA501 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				CAEDD0A82B97C428007DA501 /* UserRepo.swift */,
+				CAEDD0A82B97C428007DA501 /* NetworkManager.swift */,
 			);
-			path = Repo;
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +320,7 @@
 			files = (
 				CAD749592B9478D00027101D /* UserRouter.swift in Sources */,
 				CAEDD0A22B97AD1F007DA501 /* MockUserView.swift in Sources */,
-				CAEDD0A92B97C428007DA501 /* UserRepo.swift in Sources */,
+				CAEDD0A92B97C428007DA501 /* NetworkManager.swift in Sources */,
 				CAD749552B9478BB0027101D /* UserPresenter.swift in Sources */,
 				CAD749512B9478AC0027101D /* UsersView.swift in Sources */,
 				CAD749532B9478B30027101D /* UserInteractor.swift in Sources */,

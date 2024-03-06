@@ -7,11 +7,11 @@
 
 import Foundation
 
-protocol UserRepoProtocol: AnyObject {
+protocol NetworkManagerProtocol: AnyObject {
     func getUsers(completion: @escaping (Result<[User], Error>) -> Void)
 }
 
-final class UserRepo: UserRepoProtocol {
+final class NetworkManager: NetworkManagerProtocol {
     func getUsers(completion: @escaping (Result<[User], Error>) -> Void) {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/users") else {
             completion(.failure(NSError(domain: "URLCreationError", code: -1, userInfo: nil)))

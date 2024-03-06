@@ -11,7 +11,7 @@ final class MockUserInteractor: UserInteractorInputProtocol {
     
     var invokedGetUsers: Bool = false
     var invokedGetUsersCount: Int = 0
-    var fetchedUsers: [User] = []
+    var mockFetchedUsers: [User] = []
     
     func getUsers() {
         invokedGetUsers = true

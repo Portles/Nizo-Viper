@@ -27,7 +27,7 @@ final class UserPresenter {
             fetchUsers()
         }
     }
-    private var users: [User] = []
+    private var users: [User]?
     
     init(view: UserViewProtocol?, router: UserRouterProtocol?, interactor: UserInteractorInputProtocol?) {
         self.view = view
@@ -38,11 +38,11 @@ final class UserPresenter {
 
 extension UserPresenter: UserPresenterProtocol {
     var getUserCount: Int {
-        users.count
+        users?.count ?? 0
     }
     
     func getUserDataByIndex(_ index: Int) -> String? {
-        return users[index].name
+        users?[index].name
     }
     
     func notifyViewDidload() {

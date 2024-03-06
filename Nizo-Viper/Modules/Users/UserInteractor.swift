@@ -20,14 +20,14 @@ final class UserInteractor: UserInteractorInputProtocol {
     
     weak var output: UserInteractorOutputProtocol?
     
-    private let repo: UserRepo
+    private let networkManager: NetworkManager
     
-    init(repo: UserRepo) {
-        self.repo = repo
+    init(networkManager: NetworkManager) {
+        self.networkManager = networkManager
     }
     
     func getUsers() {
-        repo.getUsers(completion: { [weak self] result in
+        networkManager.getUsers(completion: { [weak self] result in
             switch result {
             case .success(let users):
                 self?.output?.getUsersSuccess(users: users)

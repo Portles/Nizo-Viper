@@ -7,4 +7,9 @@
 
 struct User: Codable {
     let name: String
+    
+    static let mockUsers: [User] = [
+        User(name: "Nizometto"),
+        User(name: "Mertcanto")
+    ]
 }
