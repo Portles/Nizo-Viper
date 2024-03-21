@@ -34,6 +34,16 @@ final class Nizo_ViperTests: XCTestCase {
         userPresenter = nil
     }
     
+    func test_popView() {
+        XCTAssertFalse(userRouter.invokedPopView)
+        XCTAssertEqual(userRouter.invokedPopViewCount, 0)
+        
+        userRouter.popView()
+        
+        XCTAssertTrue(userRouter.invokedPopView)
+        XCTAssertEqual(userRouter.invokedPopViewCount, 1)
+    }
+    
     // ZORT
     func test_fetchUsers() {
         userPresenter.fetchUsers()
