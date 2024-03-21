@@ -8,21 +8,25 @@
 import Foundation
 
 final class MockNetworkManager: NetworkManagerProtocol {
+    func getUsers() async throws -> [User] {
+        return [User(name: "nizo")]
+    }
+    
     
     var invokedGetUsers: Bool = false
     var invokedGetUsersCount: Int = 0
     var mockUsers: [User]?
     var mockError: Error?
     
-    func getUsers(completion: @escaping (Result<[User], Error>) -> Void) {
-        invokedGetUsers = true
-        invokedGetUsersCount += 1
-        if let error = mockError {
-            completion(.failure(error))
-        } else if let users = mockUsers {
-            completion(.success(users))
-        } else {
-            completion(.failure(NSError(domain: "MockError", code: 0, userInfo: nil)))
-        }
-    }
+//    func getUsers(completion: @escaping (Result<[User], Error>) -> Void) {
+//        invokedGetUsers = true
+//        invokedGetUsersCount += 1
+//        if let error = mockError {
+//            completion(.failure(error))
+//        } else if let users = mockUsers {
+//            completion(.success(users))
+//        } else {
+//            completion(.failure(NSError(domain: "MockError", code: 0, userInfo: nil)))
+//        }
+//    }
 }

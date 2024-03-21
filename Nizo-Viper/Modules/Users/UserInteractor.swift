@@ -27,13 +27,13 @@ final class UserInteractor: UserInteractorInputProtocol {
     }
     
     func getUsers() {
-        networkManager.getUsers(completion: { [weak self] result in
-            switch result {
-            case .success(let users):
-                self?.output?.getUsersSuccess(users: users)
-            case .failure(let error):
-                self?.output?.getUsersFailure(error: error)
+        Task {
+            do{
+                let users: [User] = try await networkManager.getUsers()
+                self.output?.getUsersSuccess(users: users)
+            }catch{
+                self.output?.getUsersFailure(error: error)
             }
-        })
+        }
     }
 }

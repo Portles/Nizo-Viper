@@ -8,34 +8,20 @@
 import Foundation
 
 protocol NetworkManagerProtocol: AnyObject {
-    func getUsers(completion: @escaping (Result<[User], Error>) -> Void)
+    func getUsers() async throws -> [User]
 }
 
 final class NetworkManager: NetworkManagerProtocol {
-    func getUsers(completion: @escaping (Result<[User], Error>) -> Void) {
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/users") else {
-            completion(.failure(NSError(domain: "URLCreationError", code: -1, userInfo: nil)))
-            return
-        }
-        let task = URLSession.shared.dataTask(with: url) { data, _, error in
-            if let error {
-                completion(.failure(error))
-                return
-            }
-            
-            guard let data else {
-                completion(.failure(NSError(domain: "DataError", code: -2, userInfo: nil)))
-                return
-            }
-            
-            do {
-                let entities = try JSONDecoder().decode([User].self, from: data)
-                completion(.success(entities))
-            } catch {
-                completion(.failure(error))
-            }
-        }
+    func getUsers() async throws -> [User] {
+        let url = URL(string: "https://jsonplaceholder.typicode.com/users".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")
         
-        task.resume()
+        let request = URLRequest(url: url!)
+        
+        // _ is response
+        let (data, _) = try await URLSession.shared.data(for: request)
+        
+        let fetchedData = try JSONDecoder().decode([User].self, from: data)
+        
+        return fetchedData
     }
 }

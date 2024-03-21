@@ -56,7 +56,7 @@ extension UserPresenter: UserPresenterProtocol {
     
     func clearUsers() {
         self.users = []
-        DispatchQueue.main.async { [weak self] in
+        Task { @MainActor [weak self] in
             self?.view?.reloadTable()
             self?.view?.changeTableVisibility(true)
         }
@@ -66,7 +66,7 @@ extension UserPresenter: UserPresenterProtocol {
 extension UserPresenter: UserInteractorOutputProtocol {
     func getUsersSuccess(users: [User]) {
         self.users = users
-        DispatchQueue.main.async { [weak self] in
+        Task { @MainActor [weak self] in
             self?.view?.reloadTable()
             self?.view?.changeTableVisibility(false)
         }
