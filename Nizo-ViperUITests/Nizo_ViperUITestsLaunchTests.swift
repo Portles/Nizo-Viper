@@ -9,7 +9,7 @@ import XCTest
 
 final class Nizo_ViperUITestsLaunchTests: XCTestCase {
 
-    override class var runsForEachTargetApplicationUIConfiguration: Bool {
+    final class override var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
 
