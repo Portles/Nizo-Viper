@@ -17,7 +17,6 @@ final class NetworkManager: NetworkManagerProtocol {
         
         let request = URLRequest(url: url!)
         
-        // _ is response
         let (data, _) = try await URLSession.shared.data(for: request)
         
         let fetchedData = try JSONDecoder().decode([User].self, from: data)

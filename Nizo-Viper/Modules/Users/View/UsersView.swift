@@ -14,7 +14,7 @@ protocol UserViewProtocol: AnyObject {
     func changeTableVisibility(_ isHidden: Bool)
 }
 
-final class UserViewController: UIViewController {
+final class UserViewController: UIViewController, Loadable {
     var presenter: UserPresenterProtocol!
     
     var tableView: UITableView = {
@@ -41,7 +41,9 @@ final class UserViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        showLoading()
         presenter?.notifyViewDidload()
+        hideLoading()
     }
     
     override func viewDidLayoutSubviews() {
