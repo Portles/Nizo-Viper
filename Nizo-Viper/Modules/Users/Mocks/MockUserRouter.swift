@@ -16,6 +16,4 @@ final class MockUserRouter: UserRouterProtocol {
         invokedPopView = true
         invokedPopViewCount += 1
     }
-    
-    
 }

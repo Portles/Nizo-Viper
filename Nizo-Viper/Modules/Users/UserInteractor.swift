@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 protocol UserInteractorInputProtocol: AnyObject {
     func getUsers()
@@ -28,10 +29,10 @@ final class UserInteractor: UserInteractorInputProtocol {
     
     func getUsers() {
         Task {
-            do{
+            do {
                 let users: [User] = try await networkManager.getUsers()
                 self.output?.getUsersSuccess(users: users)
-            }catch{
+            } catch {
                 self.output?.getUsersFailure(error: error)
             }
         }

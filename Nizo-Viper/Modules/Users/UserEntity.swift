@@ -8,8 +8,8 @@
 struct User: Codable, Equatable {
     let name: String
     
-    static let mockUsers: [User] = [
-        User(name: "Nizometto"),
-        User(name: "Mertcanto")
+    static let mockUsers: [Self] = [
+        Self(name: "Nizometto"),
+        Self(name: "Mertcanto")
     ]
 }

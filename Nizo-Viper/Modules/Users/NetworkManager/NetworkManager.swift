@@ -13,13 +13,17 @@ protocol NetworkManagerProtocol: AnyObject {
 
 final class NetworkManager: NetworkManagerProtocol {
     func getUsers() async throws -> [User] {
-        let url = URL(string: "https://jsonplaceholder.typicode.com/users".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/users".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "") else {
+            return []
+        }
         
-        let request = URLRequest(url: url!)
+        let request = URLRequest(url: url)
         
         let (data, _) = try await URLSession.shared.data(for: request)
         
-        let fetchedData = try JSONDecoder().decode([User].self, from: data)
+        var fetchedData: [User] = []
+        
+        fetchedData = try JSONDecoder().decode([User].self, from: data)
         
         return fetchedData
     }

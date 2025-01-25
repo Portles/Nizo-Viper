@@ -16,6 +16,7 @@ protocol UserViewProtocol: AnyObject {
 
 final class UserViewController: UIViewController, Loadable {
     var presenter: UserPresenterProtocol!
+    // swiftlint: enable implicitly_unwrapped_optional
     
     var tableView: UITableView = {
         let table: UITableView = UITableView()
@@ -49,8 +50,8 @@ final class UserViewController: UIViewController, Loadable {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         tableView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height - 100)
-        fetchButton.frame = CGRect(x: 20, y: view.frame.height - 100, width: view.frame.width/2 - 40, height: 64)
-        clearButton.frame = CGRect(x: view.frame.width/2 + 20, y: view.frame.height - 100, width: view.frame.width/2 - 40, height: 64)
+        fetchButton.frame = CGRect(x: 20, y: view.frame.height - 100, width: view.frame.width / 2 - 40, height: 64)
+        clearButton.frame = CGRect(x: view.frame.width / 2 + 20, y: view.frame.height - 100, width: view.frame.width / 2 - 40, height: 64)
     }
 }
 
@@ -86,7 +87,7 @@ extension UserViewController: UserViewProtocol {
     }
 }
 
-extension UserViewController :UITableViewDelegate, UITableViewDataSource {
+extension UserViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return presenter.getUserCount
     }

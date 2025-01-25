@@ -12,7 +12,6 @@ final class MockNetworkManager: NetworkManagerProtocol {
         return [User(name: "nizo")]
     }
     
-    
     var invokedGetUsers: Bool = false
     var invokedGetUsersCount: Int = 0
     var mockUsers: [User]?

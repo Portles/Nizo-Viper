@@ -218,6 +218,7 @@
 			buildConfigurationList = CAD749462B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-Viper" */;
 			buildPhases = (
 				CAD749182B9477470027101D /* Sources */,
+				CAE2B4C62C6FE50600C41D42 /* ShellScript */,
 				CAD749192B9477470027101D /* Frameworks */,
 				CAD7491A2B9477470027101D /* Resources */,
 			);
@@ -298,6 +299,8 @@
 				Base,
 			);
 			mainGroup = CAD749132B9477470027101D;
+			packageReferences = (
+			);
 			productRefGroup = CAD7491D2B9477470027101D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -334,6 +337,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAE2B4C62C6FE50600C41D42 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\nif which swiftlint >/dev/null; then\nswiftlint --config \"$SRCROOT/.swiftlint.yml\" --strict --path \"$SRCROOT\"/Nizo-Viper\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CAD749182B9477470027101D /* Sources */ = {
@@ -527,6 +552,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AAG6CZ7HRY;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Nizo-Viper/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -554,6 +580,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AAG6CZ7HRY;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Nizo-Viper/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
