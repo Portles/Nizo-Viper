@@ -3,88 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA85C2C92B98E01600940227 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85C2C82B98E01600940227 /* MockNetworkManager.swift */; };
-		CAD749202B9477470027101D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7491F2B9477470027101D /* AppDelegate.swift */; };
-		CAD749222B9477470027101D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749212B9477470027101D /* SceneDelegate.swift */; };
-		CAD749292B9477480027101D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD749282B9477480027101D /* Assets.xcassets */; };
-		CAD7492C2B9477480027101D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD7492A2B9477480027101D /* LaunchScreen.storyboard */; };
-		CAD749372B9477480027101D /* Nizo_ViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749362B9477480027101D /* Nizo_ViperTests.swift */; };
-		CAD749412B9477480027101D /* Nizo_ViperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749402B9477480027101D /* Nizo_ViperUITests.swift */; };
-		CAD749432B9477480027101D /* Nizo_ViperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749422B9477480027101D /* Nizo_ViperUITestsLaunchTests.swift */; };
-		CAD749512B9478AC0027101D /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749502B9478AC0027101D /* UsersView.swift */; };
-		CAD749532B9478B30027101D /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749522B9478B30027101D /* UserInteractor.swift */; };
-		CAD749552B9478BB0027101D /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749542B9478BB0027101D /* UserPresenter.swift */; };
-		CAD749572B9478C10027101D /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749562B9478C10027101D /* UserEntity.swift */; };
-		CAD749592B9478D00027101D /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD749582B9478D00027101D /* UserRouter.swift */; };
-		CAEDD0A22B97AD1F007DA501 /* MockUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A12B97AD1F007DA501 /* MockUserView.swift */; };
-		CAEDD0A42B97AEB9007DA501 /* MockUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A32B97AEB9007DA501 /* MockUserInteractor.swift */; };
-		CAEDD0A62B97AEC3007DA501 /* MockUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A52B97AEC3007DA501 /* MockUserRouter.swift */; };
-		CAEDD0A92B97C428007DA501 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDD0A82B97C428007DA501 /* NetworkManager.swift */; };
-		CAF87E532CC9525700648BDC /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF87E522CC9525700648BDC /* Loadable.swift */; };
+		00C568CBA396FC056DB8A089 /* MockUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD375099AE12B4F90025A5C /* MockUserInteractor.swift */; };
+		0CF516E4D98D48BC18C90A26 /* TuistBundle+NizoViper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D1D0A96BFF6807A868A531 /* TuistBundle+NizoViper.swift */; };
+		235F1761C4AF6516C87A8162 /* MockUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE20C8593DBE8FD8F06C5E0 /* MockUserView.swift */; };
+		32B5ED689E7FBDA288C251EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494974E894F1535555D0CC8 /* AppDelegate.swift */; };
+		3805903B2BF83E85A004E4B3 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED4960236D85270967F2B16 /* UserPresenter.swift */; };
+		42AF00BA7166F72203885342 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B4685F03231BDBD764D5C /* MockNetworkManager.swift */; };
+		4BDD44B7B41E44635CDFC99F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F64AC32FE8851CB016F1700 /* SceneDelegate.swift */; };
+		4DF2934D2BBFBD9197EAFD99 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A9F5D9FEEA3C99A725413B /* UserRouter.swift */; };
+		4F33D6B534D88B59BBBA42CD /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A31CC2E8ACC276A7B4D686 /* Loadable.swift */; };
+		5FF558EE59E4D91ADBAEAFEC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DC1C0F3D5C4A8B96955DA /* NetworkManager.swift */; };
+		6DD782237D4046A7BF028929 /* MockUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9114FCD5660027809C922E /* MockUserRouter.swift */; };
+		74B1D305D553F91A0E282586 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07F718A4D41915BEB1BCA6 /* UsersView.swift */; };
+		9A53B11E6015C2CBCB8142D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3003234FAFD03205040DD0D9 /* Assets.xcassets */; };
+		A8C3F807DBA237DDDFD672EC /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C724F1888F1EC82A9BB62BA2 /* UserInteractor.swift */; };
+		BAC03C701CA399EAA361E24F /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D545C05403FEFA20311CFC /* UserEntity.swift */; };
+		F7C9CA8CD2FB7042DBE8E22F /* TuistAssets+NizoViper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554A44CB6D18D74D86CFC04 /* TuistAssets+NizoViper.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CAD749332B9477480027101D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CAD749142B9477470027101D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAD7491B2B9477470027101D;
-			remoteInfo = "Nizo-Viper";
+/* Begin PBXCopyFilesBuildPhase section */
+		D5AE2FEADFAE6A7222F6AA23 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAD7493D2B9477480027101D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CAD749142B9477470027101D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAD7491B2B9477470027101D;
-			remoteInfo = "Nizo-Viper";
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CA85C2C82B98E01600940227 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
-		CAD7491C2B9477470027101D /* Nizo-Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nizo-Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAD7491F2B9477470027101D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAD749212B9477470027101D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CAD749282B9477480027101D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CAD7492B2B9477480027101D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CAD7492D2B9477480027101D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAD749322B9477480027101D /* Nizo-ViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nizo-ViperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAD749362B9477480027101D /* Nizo_ViperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nizo_ViperTests.swift; sourceTree = "<group>"; };
-		CAD7493C2B9477480027101D /* Nizo-ViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nizo-ViperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAD749402B9477480027101D /* Nizo_ViperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nizo_ViperUITests.swift; sourceTree = "<group>"; };
-		CAD749422B9477480027101D /* Nizo_ViperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nizo_ViperUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CAD749502B9478AC0027101D /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
-		CAD749522B9478B30027101D /* UserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractor.swift; sourceTree = "<group>"; };
-		CAD749542B9478BB0027101D /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
-		CAD749562B9478C10027101D /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
-		CAD749582B9478D00027101D /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
-		CAEDD0A12B97AD1F007DA501 /* MockUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserView.swift; sourceTree = "<group>"; };
-		CAEDD0A32B97AEB9007DA501 /* MockUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserInteractor.swift; sourceTree = "<group>"; };
-		CAEDD0A52B97AEC3007DA501 /* MockUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserRouter.swift; sourceTree = "<group>"; };
-		CAEDD0A82B97C428007DA501 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		CAF87E522CC9525700648BDC /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		0FE20C8593DBE8FD8F06C5E0 /* MockUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserView.swift; sourceTree = "<group>"; };
+		13A9F5D9FEEA3C99A725413B /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		2A9114FCD5660027809C922E /* MockUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserRouter.swift; sourceTree = "<group>"; };
+		3003234FAFD03205040DD0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36D545C05403FEFA20311CFC /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		391B4685F03231BDBD764D5C /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		47A31CC2E8ACC276A7B4D686 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		53D1D0A96BFF6807A868A531 /* TuistBundle+NizoViper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+NizoViper.swift"; sourceTree = "<group>"; };
+		5AED69F2D216961982ED6655 /* Nizo-Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nizo-Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD375099AE12B4F90025A5C /* MockUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserInteractor.swift; sourceTree = "<group>"; };
+		6F64AC32FE8851CB016F1700 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		782DC1C0F3D5C4A8B96955DA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9CA3517ABDD1BA06C4443515 /* Nizo-Viper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Nizo-Viper-Info.plist"; sourceTree = "<group>"; };
+		BF07F718A4D41915BEB1BCA6 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		C724F1888F1EC82A9BB62BA2 /* UserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractor.swift; sourceTree = "<group>"; };
+		D494974E894F1535555D0CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DED4960236D85270967F2B16 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		E554A44CB6D18D74D86CFC04 /* TuistAssets+NizoViper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+NizoViper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CAD749192B9477470027101D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAD7492F2B9477480027101D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAD749392B9477480027101D /* Frameworks */ = {
+		0DB30097CA72B631F91289B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,345 +70,255 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CA85C2C72B98E00000940227 /* Mock */ = {
+		2E76AB865475353989BD8D75 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CA85C2C82B98E01600940227 /* MockNetworkManager.swift */,
+				E554A44CB6D18D74D86CFC04 /* TuistAssets+NizoViper.swift */,
+				53D1D0A96BFF6807A868A531 /* TuistBundle+NizoViper.swift */,
 			);
-			path = Mock;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		CACDDA912B9724D000E215A8 /* Modules */ = {
+		2EB42E6013C08BEF8BC426B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CAD7494F2B9478970027101D /* Users */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		CACDDA922B9724F600E215A8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CAD749502B9478AC0027101D /* UsersView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CAD749132B9477470027101D = {
-			isa = PBXGroup;
-			children = (
-				CAD7491E2B9477470027101D /* Nizo-Viper */,
-				CAD749352B9477480027101D /* Nizo-ViperTests */,
-				CAD7493F2B9477480027101D /* Nizo-ViperUITests */,
-				CAD7491D2B9477470027101D /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		CAD7491D2B9477470027101D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CAD7491C2B9477470027101D /* Nizo-Viper.app */,
-				CAD749322B9477480027101D /* Nizo-ViperTests.xctest */,
-				CAD7493C2B9477480027101D /* Nizo-ViperUITests.xctest */,
+				5AED69F2D216961982ED6655 /* Nizo-Viper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CAD7491E2B9477470027101D /* Nizo-Viper */ = {
+		5C4190B02AA053B10789FBC4 /* Nizo-Viper */ = {
 			isa = PBXGroup;
 			children = (
-				CAF87E512CC9524600648BDC /* Implementations */,
-				CACDDA912B9724D000E215A8 /* Modules */,
-				CAD7491F2B9477470027101D /* AppDelegate.swift */,
-				CAD749212B9477470027101D /* SceneDelegate.swift */,
-				CAD749282B9477480027101D /* Assets.xcassets */,
-				CAD7492A2B9477480027101D /* LaunchScreen.storyboard */,
-				CAD7492D2B9477480027101D /* Info.plist */,
+				EDE0453FA1D0A2168EA0B210 /* Implementations */,
+				EA7F291E60C4556D973DD0B7 /* Modules */,
+				D494974E894F1535555D0CC8 /* AppDelegate.swift */,
+				3003234FAFD03205040DD0D9 /* Assets.xcassets */,
+				6F64AC32FE8851CB016F1700 /* SceneDelegate.swift */,
 			);
 			path = "Nizo-Viper";
 			sourceTree = "<group>";
 		};
-		CAD749352B9477480027101D /* Nizo-ViperTests */ = {
+		83F1F1EB9369CBA687ED4FC5 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				CAD749362B9477480027101D /* Nizo_ViperTests.swift */,
+				C9AABD5C52E4E4C5B06992C8 /* Derived */,
+				5C4190B02AA053B10789FBC4 /* Nizo-Viper */,
 			);
-			path = "Nizo-ViperTests";
+			name = Project;
 			sourceTree = "<group>";
 		};
-		CAD7493F2B9477480027101D /* Nizo-ViperUITests */ = {
+		A736A826FA13FAEE34E3ED78 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				CAD749402B9477480027101D /* Nizo_ViperUITests.swift */,
-				CAD749422B9477480027101D /* Nizo_ViperUITestsLaunchTests.swift */,
-			);
-			path = "Nizo-ViperUITests";
-			sourceTree = "<group>";
-		};
-		CAD7494F2B9478970027101D /* Users */ = {
-			isa = PBXGroup;
-			children = (
-				CAEDD0A02B97AD0A007DA501 /* Mocks */,
-				CAD749522B9478B30027101D /* UserInteractor.swift */,
-				CAD749542B9478BB0027101D /* UserPresenter.swift */,
-				CAD749562B9478C10027101D /* UserEntity.swift */,
-				CAD749582B9478D00027101D /* UserRouter.swift */,
-				CAEDD0A72B97C41B007DA501 /* NetworkManager */,
-				CACDDA922B9724F600E215A8 /* View */,
-			);
-			path = Users;
-			sourceTree = "<group>";
-		};
-		CAEDD0A02B97AD0A007DA501 /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				CAEDD0A12B97AD1F007DA501 /* MockUserView.swift */,
-				CAEDD0A32B97AEB9007DA501 /* MockUserInteractor.swift */,
-				CAEDD0A52B97AEC3007DA501 /* MockUserRouter.swift */,
+				6DD375099AE12B4F90025A5C /* MockUserInteractor.swift */,
+				2A9114FCD5660027809C922E /* MockUserRouter.swift */,
+				0FE20C8593DBE8FD8F06C5E0 /* MockUserView.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
 		};
-		CAEDD0A72B97C41B007DA501 /* NetworkManager */ = {
+		C4845426A9068E4C879F2DD2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CA85C2C72B98E00000940227 /* Mock */,
-				CAEDD0A82B97C428007DA501 /* NetworkManager.swift */,
+				BF07F718A4D41915BEB1BCA6 /* UsersView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C60C07FA081843B8812D241F /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				D014ADB6E6E85F91F87C547A /* Mock */,
+				782DC1C0F3D5C4A8B96955DA /* NetworkManager.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
 		};
-		CAF87E512CC9524600648BDC /* Implementations */ = {
+		C9AABD5C52E4E4C5B06992C8 /* Derived */ = {
 			isa = PBXGroup;
 			children = (
-				CAF87E522CC9525700648BDC /* Loadable.swift */,
+				F030D80CFD99F1004B543323 /* InfoPlists */,
+				2E76AB865475353989BD8D75 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		D014ADB6E6E85F91F87C547A /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				391B4685F03231BDBD764D5C /* MockNetworkManager.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		E66FD5CBF4DD502544290CE4 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				A736A826FA13FAEE34E3ED78 /* Mocks */,
+				C60C07FA081843B8812D241F /* NetworkManager */,
+				C4845426A9068E4C879F2DD2 /* View */,
+				36D545C05403FEFA20311CFC /* UserEntity.swift */,
+				C724F1888F1EC82A9BB62BA2 /* UserInteractor.swift */,
+				DED4960236D85270967F2B16 /* UserPresenter.swift */,
+				13A9F5D9FEEA3C99A725413B /* UserRouter.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		EA7F291E60C4556D973DD0B7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E66FD5CBF4DD502544290CE4 /* Users */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EDE0453FA1D0A2168EA0B210 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				47A31CC2E8ACC276A7B4D686 /* Loadable.swift */,
 			);
 			path = Implementations;
+			sourceTree = "<group>";
+		};
+		F030D80CFD99F1004B543323 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				9CA3517ABDD1BA06C4443515 /* Nizo-Viper-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		F8D1ABE08203F2462DE55551 = {
+			isa = PBXGroup;
+			children = (
+				83F1F1EB9369CBA687ED4FC5 /* Project */,
+				2EB42E6013C08BEF8BC426B2 /* Products */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CAD7491B2B9477470027101D /* Nizo-Viper */ = {
+		748EFD63B27D0EE3644DA784 /* Nizo-Viper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAD749462B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-Viper" */;
+			buildConfigurationList = FC458126FD17CB24406DF711 /* Build configuration list for PBXNativeTarget "Nizo-Viper" */;
 			buildPhases = (
-				CAD749182B9477470027101D /* Sources */,
-				CAE2B4C62C6FE50600C41D42 /* ShellScript */,
-				CAD749192B9477470027101D /* Frameworks */,
-				CAD7491A2B9477470027101D /* Resources */,
+				D8F2BBCEAB04183FDAE4D09E /* Sources */,
+				2B63BD48A4FB17D81A50BEB8 /* Resources */,
+				0DB30097CA72B631F91289B5 /* Frameworks */,
+				D5AE2FEADFAE6A7222F6AA23 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Nizo-Viper";
+			packageProductDependencies = (
+			);
 			productName = "Nizo-Viper";
-			productReference = CAD7491C2B9477470027101D /* Nizo-Viper.app */;
+			productReference = 5AED69F2D216961982ED6655 /* Nizo-Viper.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CAD749312B9477480027101D /* Nizo-ViperTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CAD749492B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-ViperTests" */;
-			buildPhases = (
-				CAD7492E2B9477480027101D /* Sources */,
-				CAD7492F2B9477480027101D /* Frameworks */,
-				CAD749302B9477480027101D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CAD749342B9477480027101D /* PBXTargetDependency */,
-			);
-			name = "Nizo-ViperTests";
-			productName = "Nizo-ViperTests";
-			productReference = CAD749322B9477480027101D /* Nizo-ViperTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CAD7493B2B9477480027101D /* Nizo-ViperUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CAD7494C2B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-ViperUITests" */;
-			buildPhases = (
-				CAD749382B9477480027101D /* Sources */,
-				CAD749392B9477480027101D /* Frameworks */,
-				CAD7493A2B9477480027101D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CAD7493E2B9477480027101D /* PBXTargetDependency */,
-			);
-			name = "Nizo-ViperUITests";
-			productName = "Nizo-ViperUITests";
-			productReference = CAD7493C2B9477480027101D /* Nizo-ViperUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CAD749142B9477470027101D /* Project object */ = {
+		464801F5547F42272DBF62D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1600;
-				TargetAttributes = {
-					CAD7491B2B9477470027101D = {
-						CreatedOnToolsVersion = 15.2;
-					};
-					CAD749312B9477480027101D = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = CAD7491B2B9477470027101D;
-					};
-					CAD7493B2B9477480027101D = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = CAD7491B2B9477470027101D;
-					};
-				};
+				BuildIndependentTargetsInParallel = YES;
+				ORGANIZATIONNAME = com.nizo;
 			};
-			buildConfigurationList = CAD749172B9477470027101D /* Build configuration list for PBXProject "Nizo-Viper" */;
+			buildConfigurationList = 08CB8B3506E4EEC427194BCC /* Build configuration list for PBXProject "Nizo-Viper" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = CAD749132B9477470027101D;
-			packageReferences = (
-			);
-			productRefGroup = CAD7491D2B9477470027101D /* Products */;
+			mainGroup = F8D1ABE08203F2462DE55551;
+			productRefGroup = 2EB42E6013C08BEF8BC426B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAD7491B2B9477470027101D /* Nizo-Viper */,
-				CAD749312B9477480027101D /* Nizo-ViperTests */,
-				CAD7493B2B9477480027101D /* Nizo-ViperUITests */,
+				748EFD63B27D0EE3644DA784 /* Nizo-Viper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CAD7491A2B9477470027101D /* Resources */ = {
+		2B63BD48A4FB17D81A50BEB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD7492C2B9477480027101D /* LaunchScreen.storyboard in Resources */,
-				CAD749292B9477480027101D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAD749302B9477480027101D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAD7493A2B9477480027101D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9A53B11E6015C2CBCB8142D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		CAE2B4C62C6FE50600C41D42 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\nif which swiftlint >/dev/null; then\nswiftlint --config \"$SRCROOT/.swiftlint.yml\" --strict --path \"$SRCROOT\"/Nizo-Viper\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		CAD749182B9477470027101D /* Sources */ = {
+		D8F2BBCEAB04183FDAE4D09E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD749592B9478D00027101D /* UserRouter.swift in Sources */,
-				CAEDD0A22B97AD1F007DA501 /* MockUserView.swift in Sources */,
-				CAEDD0A92B97C428007DA501 /* NetworkManager.swift in Sources */,
-				CAD749552B9478BB0027101D /* UserPresenter.swift in Sources */,
-				CAD749512B9478AC0027101D /* UsersView.swift in Sources */,
-				CAD749532B9478B30027101D /* UserInteractor.swift in Sources */,
-				CA85C2C92B98E01600940227 /* MockNetworkManager.swift in Sources */,
-				CAD749202B9477470027101D /* AppDelegate.swift in Sources */,
-				CAD749572B9478C10027101D /* UserEntity.swift in Sources */,
-				CAEDD0A62B97AEC3007DA501 /* MockUserRouter.swift in Sources */,
-				CAF87E532CC9525700648BDC /* Loadable.swift in Sources */,
-				CAD749222B9477470027101D /* SceneDelegate.swift in Sources */,
-				CAEDD0A42B97AEB9007DA501 /* MockUserInteractor.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAD7492E2B9477480027101D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAD749372B9477480027101D /* Nizo_ViperTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAD749382B9477480027101D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAD749412B9477480027101D /* Nizo_ViperUITests.swift in Sources */,
-				CAD749432B9477480027101D /* Nizo_ViperUITestsLaunchTests.swift in Sources */,
+				F7C9CA8CD2FB7042DBE8E22F /* TuistAssets+NizoViper.swift in Sources */,
+				0CF516E4D98D48BC18C90A26 /* TuistBundle+NizoViper.swift in Sources */,
+				32B5ED689E7FBDA288C251EC /* AppDelegate.swift in Sources */,
+				4F33D6B534D88B59BBBA42CD /* Loadable.swift in Sources */,
+				00C568CBA396FC056DB8A089 /* MockUserInteractor.swift in Sources */,
+				6DD782237D4046A7BF028929 /* MockUserRouter.swift in Sources */,
+				235F1761C4AF6516C87A8162 /* MockUserView.swift in Sources */,
+				42AF00BA7166F72203885342 /* MockNetworkManager.swift in Sources */,
+				5FF558EE59E4D91ADBAEAFEC /* NetworkManager.swift in Sources */,
+				BAC03C701CA399EAA361E24F /* UserEntity.swift in Sources */,
+				A8C3F807DBA237DDDFD672EC /* UserInteractor.swift in Sources */,
+				3805903B2BF83E85A004E4B3 /* UserPresenter.swift in Sources */,
+				4DF2934D2BBFBD9197EAFD99 /* UserRouter.swift in Sources */,
+				74B1D305D553F91A0E282586 /* UsersView.swift in Sources */,
+				4BDD44B7B41E44635CDFC99F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		CAD749342B9477480027101D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CAD7491B2B9477470027101D /* Nizo-Viper */;
-			targetProxy = CAD749332B9477480027101D /* PBXContainerItemProxy */;
-		};
-		CAD7493E2B9477480027101D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CAD7491B2B9477470027101D /* Nizo-Viper */;
-			targetProxy = CAD7493D2B9477480027101D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CAD7492A2B9477480027101D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CAD7492B2B9477480027101D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		CAD749442B9477480027101D /* Debug */ = {
+		433B23A0696178F22CAD0259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Nizo-Viper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-Viper";
+				PRODUCT_NAME = "Nizo-Viper";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EA4DF2EDB0491E3A1B42FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -459,11 +345,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -477,25 +363,50 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CAD749452B9477480027101D /* Release */ = {
+		EE7850C978BB0128AA3F2421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Nizo-Viper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-Viper";
+				PRODUCT_NAME = "Nizo-Viper";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F38858FA66438A90970B2CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -522,11 +433,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -534,184 +445,34 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CAD749472B9477480027101D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AAG6CZ7HRY;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Nizo-Viper/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-Viper";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CAD749482B9477480027101D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AAG6CZ7HRY;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Nizo-Viper/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-Viper";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		CAD7494A2B9477480027101D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AAG6CZ7HRY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-ViperTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nizo-Viper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nizo-Viper";
-			};
-			name = Debug;
-		};
-		CAD7494B2B9477480027101D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AAG6CZ7HRY;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-ViperTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nizo-Viper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nizo-Viper";
-			};
-			name = Release;
-		};
-		CAD7494D2B9477480027101D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AAG6CZ7HRY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-ViperUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Nizo-Viper";
-			};
-			name = Debug;
-		};
-		CAD7494E2B9477480027101D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AAG6CZ7HRY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nizo.Nizo-ViperUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Nizo-Viper";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CAD749172B9477470027101D /* Build configuration list for PBXProject "Nizo-Viper" */ = {
+		08CB8B3506E4EEC427194BCC /* Build configuration list for PBXProject "Nizo-Viper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAD749442B9477480027101D /* Debug */,
-				CAD749452B9477480027101D /* Release */,
+				7EA4DF2EDB0491E3A1B42FCF /* Debug */,
+				F38858FA66438A90970B2CE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAD749462B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-Viper" */ = {
+		FC458126FD17CB24406DF711 /* Build configuration list for PBXNativeTarget "Nizo-Viper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAD749472B9477480027101D /* Debug */,
-				CAD749482B9477480027101D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CAD749492B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-ViperTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CAD7494A2B9477480027101D /* Debug */,
-				CAD7494B2B9477480027101D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CAD7494C2B9477480027101D /* Build configuration list for PBXNativeTarget "Nizo-ViperUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CAD7494D2B9477480027101D /* Debug */,
-				CAD7494E2B9477480027101D /* Release */,
+				EE7850C978BB0128AA3F2421 /* Debug */,
+				433B23A0696178F22CAD0259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CAD749142B9477470027101D /* Project object */;
+	rootObject = 464801F5547F42272DBF62D3 /* Project object */;
 }
